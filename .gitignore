@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Experiment outputs
+results*/
+runs/
+logs/
+checkpoints/
+inference/
+*.pth
+*.pt
+*.out
+*.log
+
+# Data (never commit patient data)
+data/
+*.nii
+*.nii.gz
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
